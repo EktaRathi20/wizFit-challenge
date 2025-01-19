@@ -84,7 +84,7 @@ watch(
       >
         <template #filters>
           <form @submit.prevent="onSubmit" class="searchFilter" novalidate>
-            <input type="text" name="search" placeholder="Search..." v-model="filters.search" />
+            <input type="text" name="search" placeholder="Search..." v-model.trim="filters.search" />
             <button type="submit">
               {{ t('common.applyFilter') }}
             </button>
