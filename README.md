@@ -86,8 +86,8 @@ The goal of this application is to display a list of schools participating in th
 1. Clone the repository:
 
 ```sh
-    git clone https://github.com/your-repo/wizfit-challenge.git
-    cd wizfit-challenge
+    git clone https://github.com/EktaRathi20/wizFit-challenge.git
+    cd wizFit-challenge
 ```
 
 2. Install Node Modules
